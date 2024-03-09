@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    position: fixed;
+    height: 60px;
+    width: 50px; ;
+}
+.navbar_ul{ 
+    float: right;
+    margin: 0%;
+    padding: 0%;
+}
+.nav_list{
+    display: inline-block;
+    margin: 20px;
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+.nav_listborder{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about_us{
+border-right:2px solid black ;
+/* margin: 5px; */
+padding: 10px;
+text-align: center;
+
+}
+.login{
+    margin-right: 100px;
+    background-color: black;
+    border: 10px solid black;
+    color: wheat;
+    padding: 0%;
+    width: 70px;
+    border-radius: 10px;
+}
+/*dropdown css*/
+.dropdown {
+    list-style: none;
+    background: black;
+    position: relative;
+    top:60px;
+    }
+.dropdown li{
+    display: inline-block;
+    position: relative;
+}
+.dropdown li a {
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+.kk li{
+    display: block;
+}
+.kk{
+    width: 100%;
+    background: #22438C;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background: #112C66;
+    }
+li:hover ul.kk{
+    display: block;
+}
+
+
+
+  
+  
+  
